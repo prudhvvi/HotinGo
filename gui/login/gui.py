@@ -44,7 +44,7 @@ class Login(Toplevel):
 
         self.canvas = Canvas(
             self,
-            bg="#5E95FF",
+            bg="#000000",
             height=506,
             width=1012,
             bd=0,
@@ -81,7 +81,7 @@ class Login(Toplevel):
             204.0,
             anchor="nw",
             text="Username",
-            fill="#5E95FF",
+            fill="#000000",
             font=("Montserrat Bold", 14 * -1),
         )
 
